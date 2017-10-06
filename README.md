@@ -31,3 +31,7 @@ Recording the author of a document is important for checking whether there are p
 .. extensiontable::
    :extension: documentation_details
 ```
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
