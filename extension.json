@@ -1,1 +1,11 @@
-{"name":"Document Details","description":"This extension captures additional details about documentation, as identified in consultation for the OCDS PPP extension. "}
+{
+  "name": {
+    "en": "Document Details"
+  },
+  "description": {
+    "en": "This extension captures additional details about documentation, as identified in consultation for the OCDS PPP extension. "
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting/ocds_documentation_extension"
+  }
+}
