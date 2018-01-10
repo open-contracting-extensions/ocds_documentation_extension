@@ -3,7 +3,7 @@
     "Document": {
       "properties": {
         "pageStart": {
-          "title":"Page start",
+          "title": "Page start",
           "description": "When the information referenced exists within a large document, indicate the first page on which it can be found. This should refer to the printed page number, not the page number reported by software applications. ",
           "type": [
             "string",
@@ -12,7 +12,7 @@
           "mergeStrategy": "ocdsVersion"
         },
         "pageEnd": {
-          "title":"Page end",
+          "title": "Page end",
           "description": "When the information referenced exists within a large document, indicate the last page on which it can be found. This should refer to the printed page number, not the page number reported by software applications. ",
           "type": [
             "string",
@@ -21,7 +21,7 @@
           "mergeStrategy": "ocdsVersion"
         },
         "accessDetails": {
-          "title":"Access details",
+          "title": "Access details",
           "description": "A description of any special arrangements required to access this document. This may include a requirement to register for document access, a fee to be paid, or the location where documents can be inspected. ",
           "type": [
             "string",
@@ -30,7 +30,7 @@
           "mergeStrategy": "ocdsVersion"
         },
         "author": {
-          "title":"Author",
+          "title": "Author",
           "description": "The name of the author of these documents. Include the name of individuals and/or organisations responsible. For example, when a technical specification was written by a consultant, include the name and organisation of the consultant. ",
           "type": [
             "string",
