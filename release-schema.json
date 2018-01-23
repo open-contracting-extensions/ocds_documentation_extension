@@ -31,7 +31,7 @@
         },
         "author": {
           "title": "Author",
-          "description": "The name of the author of these documents. Include the name of individuals and/or organisations responsible. For example, when a technical specification was written by a consultant, include the name and organisation of the consultant. ",
+          "description": "The name of the author of these documents. Include the name of individuals and/or organizations responsible. For example, when a technical specification was written by a consultant, include the name and organization of the consultant. ",
           "type": [
             "string",
             "null"
