@@ -32,6 +32,15 @@ Recording the author of a document is important for checking whether there are p
    :extension: documentation_details
 ```
 
+## Guidance
+
+Users of this extension should follow the below guidance on the usage of fields and objects which are included in the core OCDS schema:
+
+Field/Object | Usage
+---|---
+`document` | Documentation can be supporting information, formal notices, downloadable forms, or any other kind of resource that should be made public as part an open contracting process. The documentType field can be used to indicate the nature of each document. The description can be used to provide a summary of the document contents where appropriate, and the URL fields used to link directly to downloadable copies of the document.
+`document/url` | Where the information for this documentType is found within a larger document, the page number or section should be included using a fragment identifier. E.g. #page=32.
+
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
