@@ -6,7 +6,7 @@
     "en": "Extends the document object with page references, access details and author information."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting/ocds_documentation_extension"
+    "en": "https://extensions.open-contracting.org/en/extensions/documentation_details/"
   },
   "compatibility": [
     "1.1"
