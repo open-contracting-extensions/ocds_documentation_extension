@@ -25,13 +25,6 @@ Describing `accessDetails` for a document ensures that, even when documents are 
 
 Recording the author of a document is important for checking whether there are potential conflicts of interest to be aware of: for example, when the author of a feasibility study is later involved in the team submitting a bid.
 
-## Extension fields
-
-```eval_rst
-.. extensiontable::
-   :extension: documentation_details
-```
-
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
