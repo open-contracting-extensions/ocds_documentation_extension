@@ -1,22 +1,17 @@
 # Documentation details
 
-The OCDS documentation block, which is used widely through the different sections of the standard, provides a means to link out to externally hosted documents.
+The OCDS `documentations` block, which is used widely through the different sections of the standard, provides a means to link out to externally hosted documents. However, some publishers have more detailed information about these documents.
+This extension describes a way to:
 
-## Providing enhanced documentation and document links
+* Indicate document's specific page numbers
+* Describe any additional arrangements required to access the document or find the relevant information
+* Record the author of the document
 
-A number of implementations of OCDS, notable OCDS for PPPs, explicitly require a number of key items of information to be disclosed. These items are articulated as an extended list of entries for the `documentType` codelist.
+Indicating the specific pages where information is found supports quality assurance of disclosure.
 
-However, rather than just linking out to the entire document where the information is found, this extension describes a way to:
+Describing `accessDetails` for a document ensures, even when documents are only accessible through attendance at a location (for example), that users can find how to discover them - and also ensures that auditors can check documents that have been made accessible in the appropriate ways.
 
-* Link to specific page numbers;
-* Describe any additional arrangements required to access the document or find the relevant information;
-* Record the author of the document;
-
-Linking to the specific page where information is found supports quality assurance of disclosure.
-
-Describing `accessDetails` for a document ensures that, even when documents are only accessible through attendance at a location (for example), that users can find how to discover them - and so that auditors can check documents have been made accessible in the appropriate ways.
-
-Recording the author of a document is important for checking whether there are potential conflicts of interest to be aware of: for example, when the author of a feasibility study is later involved in the team submitting a bid.
+Recording the `author` of a document is important for checking whether there are potential conflicts of interest to be aware of: for example, when the author of a feasibility study is later involved in the team submitting a bid.
 
 ## Example
 
