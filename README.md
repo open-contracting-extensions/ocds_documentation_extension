@@ -1,6 +1,6 @@
 # Documentation details
 
-The OCDS `documentations` block, which is used widely through the different sections of the standard, provides a means to link out to externally hosted documents. However, some publishers have more detailed information about these documents.
+The OCDS `documents` block, which is used widely through the different sections of the standard, provides a means to link out to externally hosted documents. However, some publishers have more detailed information about these documents.
 This extension describes a way to:
 
 * Indicate document's specific page numbers
@@ -17,19 +17,21 @@ Recording the `author` of a document is important for checking whether there are
 
 ```json
 {
-  "documents": [
-    {
-      "id": "1",
-      "documentType": "equityTransferCaps",
-      "title": "Equity transfer cap terms",
-      "description": "No equity transfer is permitted until construction is completed. See document for more details.",
-      "url": "http://example.com/ppp_unit/documents/contracts/4g_network_signed_contract.pdf",
-      "pageStart": "334",
-      "pageEnd": "336",
-      "accessDetails": "You must register for document access via the following url: http://example.com/ppp_unit/registration/",
-      "author": "Contract department, PPP unit"
-    }
-  ]
+  "tender": {
+    "documents": [
+      {
+        "id": "1",
+        "documentType": "equityTransferCaps",
+        "title": "Equity transfer cap terms",
+        "description": "No equity transfer is permitted until construction is completed. See document for more details.",
+        "url": "http://example.com/ppp_unit/documents/contracts/4g_network_signed_contract.pdf",
+        "pageStart": "334",
+        "pageEnd": "336",
+        "accessDetails": "You must register for document access via the following url: http://example.com/ppp_unit/registration/",
+        "author": "Contract department, PPP unit"
+      }
+    ]
+  }
 }
 ```
 
