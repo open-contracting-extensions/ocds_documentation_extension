@@ -1,17 +1,16 @@
-# Documentation details
+# Document details
 
-The OCDS `documents` block, which is used widely through the different sections of the standard, provides a means to link out to externally hosted documents. However, some publishers have more detailed information about these documents.
-This extension describes a way to:
+[Document objects](https://standard.open-contracting.org/latest/en/schema/reference/#document) are used to describe and link to documents. This extension adds fields to document objects to:
 
-* Indicate document's specific page numbers
-* Describe any additional arrangements required to access the document or find the relevant information
-* Record the author of the document
+* Indicate the page numbers at which relevant information can be found within a large document
+* Describe any special arrangements needed to access the document
+* Name the author of the document (not to be confused with its publisher)
 
-Indicating the specific pages where information is found supports quality assurance of disclosure.
+Use cases include:
 
-Describing `accessDetails` for a document ensures, even when documents are only accessible through attendance at a location (for example), that users can find how to discover them - and also ensures that auditors can check documents that have been made accessible in the appropriate ways.
-
-Recording the `author` of a document is important for checking whether there are potential conflicts of interest to be aware of: for example, when the author of a feasibility study is later involved in the team submitting a bid.
+* Accessing the document and locating the information within it
+* Checking whether authors are involved in other ways in the contracting process, e.g. as bidders
+* Measuring the accessibility of documents
 
 ## Example
 
@@ -41,9 +40,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
-### 2019-07-24
+### 2020-04-15
 
-* Remove references to core fields from README.md
+* Improve documentation
+* Use non-normative keywords where appropriate
 
 ### 2019-01-30
 
