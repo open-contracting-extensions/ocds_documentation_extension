@@ -49,7 +49,7 @@
         },
         "unofficialTranslation": {
           "title": "Unofficial translation",
-          "description": "A true/false field to indicate if the language of the document is an unofficial translation.",
+          "description": "Whether the document is an unofficial translation.",
           "type": [
             "boolean",
             "null"
