@@ -31,7 +31,7 @@
         },
         "accessDetailsURL": {
           "title": "Access details",
-          "description": "A web address containg a description of any special arrangements needed to access the document.",
+          "description": "A web address with information on any special arrangements needed to access the document.",
           "type": [
             "string",
             "null"
