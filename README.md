@@ -13,10 +13,6 @@ Use cases include:
 * Checking whether authors are involved in other ways in the contracting process, e.g. as bidders
 * Measuring the accessibility of documents
 
-## Legal context
-
-In the European Union, this extension's fields correspond to [eforms BG-101 (Procurement documents)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
-
 ## Example
 
 ```json
