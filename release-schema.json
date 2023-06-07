@@ -30,8 +30,8 @@
           "minLength": 1
         },
         "accessDetailsURL": {
-          "title": "Access details",
-          "description": "A web address with information on any special arrangements needed to access the document.",
+          "title": "Access details URL",
+          "description": "A web address for information on any special arrangements needed to access the document.",
           "type": [
             "string",
             "null"

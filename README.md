@@ -5,7 +5,7 @@
 * Indicate the page numbers at which relevant information can be found within a large document
 * Describe any special arrangements needed to access the document
 * Name the author of the document (not to be confused with its publisher)
-* Indicate if the document is an unofficial translation
+* Indicate whether the document is an unofficial translation
 
 Use cases include:
 
@@ -46,7 +46,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-04-05
 
-* Add `accessDetailsURL` and `unofficialTranslation`.
+* Add `accessDetailsURL` and `unofficialTranslation` fields.
 
 ### 2020-04-24
 
