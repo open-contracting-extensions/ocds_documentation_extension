@@ -29,6 +29,15 @@
           ],
           "minLength": 1
         },
+        "accessDetailsURL": {
+          "title": "Access details URL",
+          "description": "A web address for information on any special arrangements needed to access the document.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
         "author": {
           "title": "Author",
           "description": "The names of the authors of the document.",
@@ -37,6 +46,14 @@
             "null"
           ],
           "minLength": 1
+        },
+        "unofficialTranslation": {
+          "title": "Unofficial translation",
+          "description": "Whether the document is an unofficial translation.",
+          "type": [
+            "boolean",
+            "null"
+          ]
         }
       }
     }
