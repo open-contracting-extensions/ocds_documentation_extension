@@ -47,13 +47,21 @@
           ],
           "minLength": 1
         },
-        "unofficialTranslation": {
-          "title": "Unofficial translation",
-          "description": "Whether the document is an unofficial translation.",
+        "unofficialTranslations": {
+          "title": "Unofficial translations",
+          "description": "The languages used in unofficial translations of the document, from the open [language](https://standard.open-contracting.org/{{version}}/{{lang}}/schema/codelists/#language) codelist. A [BCP47 language tag](https://www.w3.org/International/articles/language-tags/) is allowed, if there is a user need for the additional information.",
           "type": [
-            "boolean",
+            "array",
             "null"
-          ]
+          ],
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "codelist": "language.csv",
+          "openCodelist": true,
+          "minItems": 1,
+          "uniqueItems": true
         }
       }
     }

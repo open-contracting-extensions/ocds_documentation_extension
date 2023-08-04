@@ -5,7 +5,7 @@
 * Indicate the page numbers at which relevant information can be found within a large document
 * Describe any special arrangements needed to access the document
 * Name the author of the document (not to be confused with its publisher)
-* Indicate whether the document is an unofficial translation
+* Provide any unofficial languages the document is provided in
 
 Use cases include:
 
@@ -26,7 +26,9 @@ Use cases include:
         "description": "No equity transfer is permitted until construction is completed. See document for more details.",
         "url": "http://example.com/ppp_unit/documents/contracts/4g_network_signed_contract.pdf",
         "language": "en",
-        "unofficialTranslation": false,
+        "unofficialTranslations": [
+          "it"
+        ],
         "pageStart": "334",
         "pageEnd": "336",
         "accessDetails": "This document can only be accessed by visiting the PPP unit office by appointment. Please see the PPP unit website for further details.",
@@ -44,9 +46,13 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-08-04
+
+* Change unofficialTranslation field to `unofficialTranslations` array of languages.
+
 ### 2023-04-05
 
-* Add `accessDetailsURL` and `unofficialTranslation` fields.
+* Add `accessDetailsURL` and unofficialTranslation fields.
 
 ### 2020-04-24
 
