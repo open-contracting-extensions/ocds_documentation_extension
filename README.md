@@ -5,7 +5,7 @@
 * Indicate the page numbers at which relevant information can be found within a large document
 * Describe any special arrangements needed to access the document
 * Name the author of the document (not to be confused with its publisher)
-* Provide any unofficial languages the document is provided in
+* Indicate the languages in which unofficial translations of the document are available
 
 Use cases include:
 
